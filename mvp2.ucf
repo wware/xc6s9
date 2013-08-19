@@ -70,9 +70,9 @@ NET din           LOC="P100" | IOSTANDARD=LVTTL;                                
 #NET B(6)           LOC="P80"  | IOSTANDARD=LVTTL;                                # B6
 #NET B(7)           LOC="P78"  | IOSTANDARD=LVTTL;                                # B7
 
-nwr   B(5)           LOC="P82"  | IOSTANDARD=LVTTL;                                # B5
-nrd   B(6)           LOC="P80"  | IOSTANDARD=LVTTL;                                # B6
-naddr B(7)           LOC="P78"  | IOSTANDARD=LVTTL;                                # B7
+NET nwr              LOC="P82"  | IOSTANDARD=LVTTL;                                # B5
+NET nrd              LOC="P80"  | IOSTANDARD=LVTTL;                                # B6
+NET naddr            LOC="P78"  | IOSTANDARD=LVTTL;                                # B7
 
 #NET B(8)           LOC="P74"  | IOSTANDARD=LVTTL;                                # B8
 #NET B(9)           LOC="P95"  | IOSTANDARD=LVTTL;                                # B9
